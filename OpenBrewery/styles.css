@@ -1,0 +1,46 @@
+body {
+    background-color: #05c8f0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.app-header {
+    padding: auto;
+    text-align: center;
+    color: #1a1485;
+}
+
+.searchbar {
+    display: flex;
+    justify-content: center;
+}
+
+.searchbar > * {
+    padding: 10px;
+}
+
+.searchbar > input {
+    border-radius: 10px 0 0 10px;
+}
+
+.searchbar > button {
+    background-color: #337ab7;
+    color: white;
+    border: 1px solid #2e6da4;
+    border-radius: 0 10px 10px 0;
+}
+
+.brewery-list-container {
+    background-color: white;
+    margin: 20px 100px 0 100px;
+    border: 2px solid #030045;
+    border-radius: 5px;
+    height: 450px;
+    overflow:hidden; 
+    overflow-y:scroll;
+}
+
+.brewery-item-container {
+    border-bottom: 1px solid grey;
+    padding: 10px;
+    background-color: #edf2f1;
+}
